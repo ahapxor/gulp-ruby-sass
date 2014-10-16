@@ -138,6 +138,7 @@ module.exports = function (options) {
 				stream.emit('error', createErr(bundleErrMsg, {showStack: false}));
 			} else if (!noSassMatcher.test(msg)) {
 				gutil.log('gulp-ruby-sass: stderr:', msg);
+                                stream.emit('error', createErr(data));
 			}
 		});
 
