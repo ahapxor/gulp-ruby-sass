@@ -3,7 +3,7 @@
   "version": "0.7.1",
   "description": "Compile Sass to CSS with Ruby Sass",
   "license": "MIT",
-  "repository": "sindresorhus/gulp-ruby-sass",
+  "repository": "ahapxor/gulp-ruby-sass",
   "maintainers": [
     {
       "name": "Sindre Sorhus",
